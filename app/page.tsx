@@ -4,7 +4,7 @@ import { socialLinks } from "./config";
 export default function Page() {
   return (
     <section>
-      <a href={socialLinks.twitter} target="_blank">
+      <a href={socialLinks.linkedin} target="_blank">
         <Image
           src="/profile.png"
           alt="Profile photo"
@@ -17,13 +17,15 @@ export default function Page() {
       </a>
 
       <h1 className="mb-8 text-2xl font-medium tracking-tight">
-        Portfolio, made simple!
+        Hi, welcome to my portfolio!
       </h1>
 
       <div className="prose prose-neutral dark:prose-invert">
         <p>
-          A clean, fast, and lightweight portfolio template built with Next.js,
-          Vercel, and Tailwind CSS for optimal performance.
+        Software Engineer with over 3 years of experience in building scalable, highly available systems. 
+        Proficient in cloud infrastructure (AWS), Docker, Kubernetes, and developing high-performance APIs. 
+        Skilled in optimizing system performance and leading cross-functional projects. 
+        Focused on developing reliable, distributed microservices for high-traffic applications.
         </p>
         <p>
           Nextfolio includes all the essentials for a stunning portfolio: SEO,
